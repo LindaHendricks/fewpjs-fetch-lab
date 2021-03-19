@@ -42,8 +42,8 @@ tab and open DevTools. Copy the following code into the console:
 
 ```js
 fetch('https://anapioficeandfire.com/api/books')
-  .then(resp => resp.json())
-  .then(json => console.log(json));
+  .then(resp => resp.json()) // fecth the request data from the API 
+  .then(json => console.log(json)); // render the API respon as a JSON => Nested Object
 ```
 
 The first line of code fetches the requested data from the API. In the second
